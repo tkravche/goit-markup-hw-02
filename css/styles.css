@@ -1,0 +1,132 @@
+/* Raleway 700 */
+/* Roboto 400(regular) 500(medium) 700(bold) 900(extra bold)*/
+
+/* primary text color */
+/* secondary text */
+/* accent text */
+
+/* color bg hero + footer black #2F303A */
+/* accent color blue logo + blue filter + hover #2196F3 but blue hero button #188CE8 */
+/* logo  text color black #000000 */
+/* nav links text color black #212121 */
+/* paragraph text color black #757575 */
+/* h1 color + hero "button" + footer address text white #ffffff */
+/* footer e-mail & phone text white #ffffff 60%*/
+/* phone text + h2 + h3 color dark grey #212121*/
+/* "our team" section background + filters in Portfolio bg light grey #F5F4FA*/
+/* web site bg #F5F5F5 */
+
+/* Custom  properties*/
+:root {
+  --primary-text-color: #757575;
+}
+
+/* for all elements in body */
+body {
+  background-color: #f5f5f5;
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+/* No bullets */
+.list {
+  list-style: none;
+}
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.btn {
+  cursor: pointer;
+}
+button {
+    font-family: inherit;
+}
+
+/* Black color for the logo !!!! blue add later with a span */
+.logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+/* Navigation */
+.site-nav .link {
+  color: #212121;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link.current {
+  color: #2196f3;
+}
+
+.address {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* Hero */
+.hero-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.btn-hero {
+  background-color: #188ce8;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+/* Section */
+.section-title {
+  color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+l   etter-spacing: 0.03em;
+}
+
+.feature-list .title {
+  color: #212121;
+  font-weight: 700;
+  line-height: 1.14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.section .title {
+color: #212121;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+.footer a {
+    color:#ffffff
+
+}
