@@ -47,7 +47,7 @@ a {
   font-style: normal;
 }
 /* Logo */
-.logo-blue {
+.logo-accent {
   color: var(--accent-color);
 }
 .logo {
@@ -149,7 +149,7 @@ a {
 .footer .link {
   color: rgba(255, 255, 255, 0.6);
 }
-.link.physical-address {
+.link.street-address {
   color: #ffffff;
 }
 .footer .logo {
