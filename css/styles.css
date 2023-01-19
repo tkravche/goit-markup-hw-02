@@ -17,25 +17,23 @@
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
   --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --filterbutton-color: #f5f4fa;
+  --herobutton-color: #188ce8;
+  --footer-color: #2f303a;
 }
 /* for all elements in body */
 body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
   letter-spacing: 0.03em;
 
-  background-color: #ffffff;
+  background-color: var(--white-color);
   color: var(--primary-text-color);
 }
 .btn {
   cursor: pointer;
-}
-button {
-  font-family: inherit;
-
-  background-color: #f5f4fa;
 }
 /* No bullets */
 .list {
@@ -57,7 +55,7 @@ a {
   line-height: 1.2;
   text-decoration: none;
 
-  color: #000000;
+  color: var(--black-color);
 }
 /* Navigation */
 .site-nav .link {
@@ -79,7 +77,7 @@ a {
 }
 /* Hero */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--footer-color);
 }
 .hero-title {
   font-weight: 900;
@@ -89,7 +87,7 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--white-color);
 }
 .btn-hero {
   font-weight: 700;
@@ -97,8 +95,8 @@ a {
   line-height: 1.9;
   letter-spacing: 0.06em;
 
-  background-color: #188ce8;
-  color: #ffffff;
+  background-color: var(--herobutton-color);
+  color: var(--white-color);
 }
 /* Sections */
 .section-title {
@@ -145,18 +143,29 @@ a {
   line-height: 1.9;
   color: var(--primary-text-color);
 }
+/* Filter */
+button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  background-color: var(--filterbutton-color);
+}
 /* Footer */
 .footer .link {
   color: rgba(255, 255, 255, 0.6);
 }
 .link.street-address {
-  color: #ffffff;
+  color: var(--white-color);
 }
 .footer .logo {
-  color: #ffffff;
+  color: var(--white-color);
 }
 .footer {
-  background-color: #2f303a;
+  background-color: var(--footer-color);
 }
 .link:hover,
 .link:focus {
@@ -165,5 +174,5 @@ a {
 .btn:hover,
 .btn:focus {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--white-color);
 }
