@@ -23,7 +23,7 @@
   --herobutton-color: #188ce8;
   --footer-color: #2f303a;
   --hero-bg: #c4c4c4;
-  --address--footer-color-color: rgba(255, 255, 255, 0.6);
+  --address-color: rgba(255, 255, 255, 0.6);
 }
 /* For all elements in body */
 body {
