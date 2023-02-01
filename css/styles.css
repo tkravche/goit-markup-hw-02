@@ -38,7 +38,7 @@ body {
   cursor: pointer;
 }
 /* No bullets */
-.list {
+.item {
   list-style: none;
 }
 /* Link decoration */
